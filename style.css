@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: black;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+nav a:hover {
+    color: lightblue;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+}
+
+/* Flexbox layout */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Images */
+img {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* Table */
+table {
+    background-color: white;
+}
+
+/* Button */
+button {
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
